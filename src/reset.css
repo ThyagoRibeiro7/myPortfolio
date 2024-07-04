@@ -7,6 +7,7 @@
     padding: 0;
     text-decoration: none;
     border: none;
+    list-style-type: none;
     box-sizing: border-box;
 }
 
@@ -16,6 +17,8 @@ html{
 
 body{
     background-color: #0E0E0E;
+    color: var(--light-color);
+    height: 100vh;
 }
 
 img{
@@ -33,6 +36,7 @@ img{
     --ff-jura:  "Jura", sans-serif;
     --ff-ubuntu: "Ubuntu", sans-serif;
     --fw-light: 300;
+    --fw-bold: 700; 
     --light-color: #fff;
     --gray-color: #171717;
 }
