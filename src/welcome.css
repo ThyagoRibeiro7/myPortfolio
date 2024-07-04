@@ -1,0 +1,52 @@
+main{
+    padding: 0.5rem;
+}
+
+.welcome_container{
+    display: flex;
+    gap: 5rem;
+    max-width: 100%;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 0 16rem;
+    background-color: var(--gray-color);
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 15px 0px rgba(255,255,255,1);
+}
+
+.welcome_container .welcome_info_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.welcome_container .welcome_info_container h1, p{
+    font-family: var(--ff-jura);
+}
+
+.welcome_container .welcome_info_container h1{
+    font-size: 6rem;
+}
+
+.welcome_container .welcome_info_container p{
+    font-size: 2.5rem;
+}
+
+.welcome_container .welcome_info_container p:nth-child(1){
+    font-size: 4rem;
+}
+
+.welcome_container .welcome_image_container{
+    max-width: 100%;
+}
+
+.welcome_container .welcome_image_container img{
+    max-width: 40rem;
+}
+
+.absolute_image img{
+    position: absolute;
+    left: -15rem;
+}
