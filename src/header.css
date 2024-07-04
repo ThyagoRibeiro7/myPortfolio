@@ -1,0 +1,20 @@
+.header{
+    max-width: 100%;
+    width: 100%;
+}
+
+.header .header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem 0;
+    /* background-color: red; */
+}
+
+.header .header_container li a{
+    font-size: 1.8rem;
+    font-weight: var(--fw-bold);
+    color: var(--light-color);
+    font-family: var(--ff-ubuntu);
+}
