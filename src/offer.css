@@ -1,0 +1,18 @@
+.offer_container{
+    display: flex;
+    padding: 2.5rem;
+    border: 2.5px solid var(--light-color);
+    border-radius: 0.5rem;
+}
+
+.offer_container .offer_text_container h2{
+    font-family: var(--ff-kumbh-sans);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.offer_container .offer_text_container p{
+    font-family: var(--ff-kumbh-sans);
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}

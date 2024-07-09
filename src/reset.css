@@ -28,6 +28,16 @@ img{
 
 /* RESET PROPERTIES */
 
+/* UTILITIES */
+
+.main_container{
+    max-width: clamp(570px, 80vw, 1200px);
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+/* UTILITIES */
+
 /* VARIABLES */
 
 :root{
