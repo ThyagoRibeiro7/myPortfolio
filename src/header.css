@@ -1,6 +1,9 @@
 .header{
     max-width: 100%;
     width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .header .header_container{
@@ -9,7 +12,6 @@
     align-items: center;
     gap: 5rem;
     padding: 5rem 0;
-    /* background-color: red; */
 }
 
 .header .header_container li a{
