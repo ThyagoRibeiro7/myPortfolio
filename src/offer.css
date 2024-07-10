@@ -1,6 +1,7 @@
 .offer_container{
     display: flex;
     padding: 2.5rem;
+    gap: 15rem;
     border: 2.5px solid var(--light-color);
     border-radius: 0.5rem;
 }
@@ -15,4 +16,29 @@
     font-family: var(--ff-kumbh-sans);
     font-size: 2rem;
     margin: 2rem 0 2rem 0;
+}
+
+.offer_text_container .contact_button{
+    display: flex;
+    width: 17rem;
+    padding: 0.8rem 3rem;
+    border-radius: 2rem;
+    background-color: var(--gray-color);
+    box-shadow: inset 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+
+.contact_button button{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    font-family: var(--ff-kumbh-sans);
+    background-color: transparent;
+    color: var(--light-color);
+}
+
+.offer_container .social_media_container{
+    margin-top: 4.5rem;
+}
+
+.offer_container .social_media_container img{
+    margin-right: 5rem;
 }

@@ -1,0 +1,58 @@
+.myStack_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 25.5rem;
+}
+
+.myStack_container h2{
+    font-size: 8rem;
+    font-family: var(--ff-kumbh-sans);
+    font-weight: var(--fw-light);
+}
+
+.myStack_container p{
+    font-family: var(--ff-kumbh-sans);
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.myStack_container .hard_skills_container{
+    display: flex;
+    gap: 9rem;
+    max-width: 100%;
+    margin-top: 8rem;
+}
+
+.hard_skills_container .floating_card_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    width: 40rem;
+    background-color: var(--gray-color);
+    border-radius: 1.5rem;
+    box-shadow: 0px 1px 5px 0px rgba(231,231,231,1);
+    transition: all 0.3s;
+}
+
+.hard_skills_container .floating_card_container:hover{
+    box-shadow: 5px 3px 5px 0px rgba(231,231,231,1);
+}
+
+.hard_skills_container .floating_card_container h3{
+    font-size: 3rem;
+    font-weight: var(--fw-light);
+    font-family: var(--ff-anybody);
+    margin-bottom: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+.floating_card_container ul li{
+    font-family: var(--ff-anybody);
+    font-size: 1.5rem;
+    line-height: 5rem;
+}
