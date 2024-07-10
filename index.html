@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="./src/offer.css">
     <link rel="stylesheet" href="./src/myStack.css">
     <link rel="stylesheet" href="./src/projetos.css">
+    <link rel="stylesheet" href="./src/mediaqueries.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James | Portfólio</title>
 </head>
 
 <body>
+
     <div class="main_container">
         <header class="header">
             <ul class="header_container">
@@ -25,40 +27,48 @@
                 <li><a href="#projects">Projetos</a></li>
             </ul>
         </header>
+
         <main>
-            <section class="welcome_container">
+            <section id="home" class="welcome_container">
                 <div class="welcome_info_container">
                     <p>Hello, World! 👋</p>
                     <h1>Thyago Ribeiro</h1>
-                    <p> < Junior Front End Developer /> </p>
+                    <p>
+                        < Junior Front End Developer />
+                    </p>
                 </div>
                 <div class="welcome_image_container">
                     <img src="./Images/FaceImage.png" alt="jamesAvatarImage">
                 </div>
             </section>
         </main>
-        <section class="absolute_image">
-            <img src="./Images/SaturnImage.png" alt="SaturnImage">
-        </section>
-        <section class="about_container">
+
+        <div class="absolute_image saturnImage">
+            <img class="" src="./Images/SaturnImage.png" alt="SaturnImage">
+        </div>
+
+        <section id="aboutMe" class="about_container">
             <div class="about_info">
                 <h1>About Me</h1>
                 <div class="aboutMe_container">
-                    <p>Meu nome é Thyago Ribeiro, tenho 18 anos, gosto de design, ler livros, e busco o desenvolvimento pessoal e profissional das minhas habilidades como um todo.
-                       Sem nenhuma experiência prévia na área, procuro meios e formas eficazes de estudo e pratica, de forma com que eu possa desempenhar um papel satisfatório e de excelência em meu futuro.
+                    <p>Meu nome é Thyago Ribeiro, tenho 18 anos, gosto de design, ler livros, e busco o desenvolvimento
+                        pessoal e profissional das minhas habilidades como um todo.
+                        Sem nenhuma experiência prévia na área, procuro meios e formas eficazes de estudo e pratica, de
+                        forma com que eu possa desempenhar um papel satisfatório e de excelência em meu futuro.
                     </p>
                 </div>
             </div>
-                <img class="absolute_image astronaut" src="./Images/Astronaut.png" alt="Astronaut">
+            <img src="./Images/Astronaut.png" alt="Astronaut">
         </section>
+
         <section class="offer_container">
             <div class="offer_text_container">
                 <h2>Interessado? Vamos Conversar!</h2>
                 <p>Estou no início, porém estou aberto a oportunidades.</p>
-                <div class="contact_button">
-                    <button>Contato</button>
+                <a href="#" class="contact_button">
+                    <span>Contato</span>
                     <img src="./Images/ContactIcon.png" alt="ContactIcon">
-                </div>
+                </a>
             </div>
             <div class="social_media_container">
                 <a href="#"><img src="./Images/LinkedInIcon.png" alt="LinkedInIcon"></a>
@@ -67,7 +77,8 @@
                 <a href="#"><img src="./Images/InstagramIcon.png" alt="InstagramIcon"></a>
             </div>
         </section>
-        <section class="myStack_container">
+
+        <section id="myStack" class="myStack_container">
             <h2>My Stack</h2>
             <p>Hard Skills</p>
             <div class="hard_skills_container">
@@ -102,9 +113,108 @@
                         <li>Objetos.</li>
                     </ul>
                 </div>
-
             </div>
         </section>
+
+        <div class="moonImage">
+            <img src="./Images/MoonImage.png" alt="MoonImage">
+        </div>
+
+        <section id="projects" class="main_project_container">
+            <h3>Projetos</h3>
+
+            <div class="project_container">
+                <div class="image_project_container">
+                    <img src="./Images/AluraIcon.png" alt="AluraTecnologySchoolImage">
+                </div>
+                <div class="info_project_container">
+                    <h2>Imersão Alura | Spotify</h2>
+                    <p>Imersão Alura, é um evento desenvolvido pela escola de tecnologia Alura, na qual os
+                        professores tomam a iniciativa de, em um uma semana, incentivar o aprofundamento e
+                        desenvolvimento dos conhecimentos em programação Front-End. Neste evento, foi desenvolvido
+                        um clone da página inicial do famoso aplicativo de reprodução de mídia musical,
+                        <span>Spotify</span>.
+                    </p>
+                    <div class="tecnologies_container">
+                        <img src="./Images/HTMLIcon.png" alt="HTML5Icon">
+                        <img src="./Images/CSSIcon.png" alt="CSSIcon">
+                        <img src="./Images/JSIcon.png" alt="JavaScriptIcon">
+                    </div>
+                    <a href="#" class="project_btn">
+                        <span>Ver Certificado.</span>
+                        <img src="./Images/NextPageIcon.png" alt="GoToAnotherPageIcon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="project_container">
+                <div class="info_project_container">
+                    <h2>Projeto Clone | Projeto do Zero</h2>
+                    <p>
+                        Neste projeto desenvolvo um clone da Landing Page do curso online, Filosofia do Zero cujo
+                        criador e professor Guilherme Freire ensina assuntos como Filosofia Clássica, Educação Clássica
+                        e a história e pensamentos de grandes filósofos como Platão, Sócrates e Aristóteles.
+                    </p>
+                    <div class="tecnologies_container">
+                        <img src="./Images/HTMLIcon.png" alt="HTML5Icon">
+                        <img src="./Images/CSSIcon.png" alt="CSSIcon">
+                        <img src="./Images/JSIcon.png" alt="JavaScriptIcon">
+                    </div>
+                    <a href="#" class="project_btn">
+                        <span>Ver Projeto.</span>
+                        <img src="./Images/NextPageIcon.png" alt="GoToAnotherPageIcon">
+                    </a>
+                </div>
+                <div class="image_project_container">
+                    <img src="./Images/FDZIcon.png" alt="FilosofiadoZeroCourseImage">
+                </div>
+            </div>
+
+            <div class="project_container">
+                <div class="image_project_container">
+                    <img src="./Images/FrontEndMentorImage.png" alt="FrontEndMentorLogoImage">
+                </div>
+                <div class="info_project_container last_project_container">
+                    <h2>Projetos Frond-End Mentor</h2>
+                    <p>
+                        Esta é uma uma sequência de projetos que realizei no decorrer de minha jornada como programador
+                        até aqui, no famoso site de design e programação “Front-End Mentor”
+                    </p>
+                    <div class="tecnologies_container">
+                        <img src="./Images/HTMLIcon.png" alt="HTML5Icon">
+                        <img src="./Images/CSSIcon.png" alt="CSSIcon">
+                        <img src="./Images/JSIcon.png" alt="JavaScriptIcon">
+                    </div>
+                    <a href="#" class="project_btn">
+                        <span>Ver Projetos.</span>
+                        <img src="./Images/NextPageIcon.png" alt="GoToAnotherPageIcon">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+        <footer class="footer">
+            <section class="offer_container">
+                <div class="offer_text_container">
+                    <h2>Interessado? Vamos Conversar!</h2>
+                    <p>Estou no início, porém estou aberto a oportunidades.</p>
+                    <a href="#" class="contact_button">
+                        <span>Contato</span>
+                        <img src="./Images/ContactIcon.png" alt="ContactIcon">
+                    </a>
+                </div>
+                <div class="social_media_container">
+                    <a href="#"><img src="./Images/LinkedInIcon.png" alt="LinkedInIcon"></a>
+                    <a href="#"><img src="./Images/GitHubIcon.png" alt="GitHubIcon"></a>
+                    <a href="#"><img src="./Images/GmailIcon.png" alt="GmailIcon"></a>
+                    <a href="#"><img src="./Images/InstagramIcon.png" alt="InstagramIcon"></a>
+                </div>
+            </section>
+        </footer>
+
     </div>
 </body>
 
