@@ -41,6 +41,7 @@ img{
     position: absolute;
     top: 50rem;
     left: -15rem;
+    z-index: -1;
 }
 
 .moonImage img{
