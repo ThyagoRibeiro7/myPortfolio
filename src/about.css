@@ -13,14 +13,14 @@
     z-index: -1;
 }
 
-.about_container h1{
+.about_container .about_info h2{
     font-family: var(--ff-jura);
     font-size: 8rem;
     font-weight: var(--fw-light);
     margin-bottom: 2.5rem;
 }
 
-.about_container p{
+.about_container .about_info p{
     font-family: var(--ff-jura);
     font-size: 2.2rem;
     line-height: 5rem;
