@@ -1,0 +1,187 @@
+@media (max-width: 1365px) {
+    .welcome_container {
+        padding: 1rem 1rem;
+        gap: 1rem;
+    }
+
+    .about_container{
+        width: 60rem;
+    }
+
+    .welcome_container .welcome_info_container {
+        gap: 3.5rem;
+    }
+
+    .welcome_container .welcome_image_container img{
+        width: 30rem;
+    }
+
+    .welcome_container .welcome_info_container span{
+        font-size: 3.5rem;
+    }
+
+    .welcome_container .welcome_info_container p{
+        font-size: 2.5rem;
+    }
+
+    .welcome_container .welcome_info_container h1{
+        font-size: 5rem;
+    }
+
+    .main_project_container .project_container{
+        gap: 5rem;
+    }
+
+    .project_container .info_project_container p{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 1290px){
+    .offer_container{
+        gap: 6.5rem;
+    }
+
+    .offer_container .social_media_container{
+        gap: 3rem;
+    }
+
+    .main_container .last_project_container p{
+        margin-bottom: 2rem;
+    }
+
+    .saturnImage img{
+        width: 35rem;
+    }
+    
+    .moonImage img{
+        width: 35rem;
+    }
+    
+    .earthImage{
+        width: 35rem;
+    }
+}
+
+@media (max-width: 1100px){
+    .about_container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_container img{
+        display: none;
+    }
+
+    .offer_container, .offer_text_container{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .myStack_container .hard_skills_container{
+        gap: 2.5rem;
+    }
+
+    .main_container .project_container, .info_project_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_container .info_project_container p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 936px){
+    .header .header_container{
+        gap: 1.8rem;
+    }
+
+    .header_container li a{
+        font-size: 2rem;
+    }
+
+    .welcome_container{
+        padding: 2rem 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    .welcome_container .welcome_info_container{
+        padding-top: 10rem;
+        text-align: center;
+    }
+
+    .saturnImage img{
+        top: 90rem;
+    }
+
+    .about_container{
+        padding: 1.5rem;
+    }
+
+    .myStack_container .hard_skills_container{
+        flex-direction: column;
+    }
+
+    .hard_skills_container .floating_card_container ul li{
+        font-size: 2rem;
+    }
+
+    .earthImage{
+        top: 750rem;
+    }
+
+    .myStack_container h2, p,
+    .info_project_container h2{
+        font-size: 6.5rem;
+    }
+
+    .project_container .info_project_container h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 470px){
+    .header .header_container li a{
+        font-size: 1.7rem;
+    }
+
+    .welcome_container .welcome_info_container span{
+        font-size: 3rem;
+    }
+
+    .welcome_container .welcome_info_container h1{
+        font-size: 4rem;
+    }
+
+    .welcome_container .welcome_info_container p{
+        font-size: 2rem;
+    }
+
+    .about_container .about_info p{
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 4rem;
+    }
+
+    .about_container .about_info h2{
+        font-size: 6rem;
+    }
+
+    .myStack_container h2, p,
+    .info_project_container h2{
+        font-size: 6.5rem;
+    }
+
+    .project_container .info_project_container h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
