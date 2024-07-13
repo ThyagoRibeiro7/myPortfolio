@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.main_project_container > h3{
+.main_project_container > h2{
     font-family: var(--ff-kumbh-sans);
     font-size: 8rem;
     font-weight: var(--fw-light);
@@ -21,9 +21,11 @@
 
 .project_container .info_project_container{
     font-family: var(--ff-kumbh-sans);
+    display: flex;
+    flex-direction: column;
 }
 
-.project_container .info_project_container h2{
+.project_container .info_project_container h3{
     font-weight: 400;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -36,7 +38,7 @@
     max-width: 50ch;
 }
 
-.project_container .info_project_container p span{
+.project_container .info_project_container span{
     color: #59D266;
 }
 
