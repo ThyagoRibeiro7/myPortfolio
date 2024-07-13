@@ -47,11 +47,13 @@ img{
 .moonImage img{
     position: absolute;
     right: -15rem;
+    z-index: -1;
 }
 
 .earthImage{
     position: absolute;
     left: -25rem;
+    z-index: -1;
 }
 
 /* UTILITIES */
