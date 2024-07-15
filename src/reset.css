@@ -20,7 +20,7 @@ body{
     background-color: #0E0E0E;
     color: var(--light-color);
     height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 img{
@@ -45,13 +45,13 @@ img{
     z-index: -1;
 }
 
-.moonImage img{
+/* .moonImage img{
     position: absolute;
     right: -15rem;
     z-index: -1;
-}
+} */
 
-.earthImage{
+.earthImage img{
     position: absolute;
     left: -25rem;
     z-index: -1;
