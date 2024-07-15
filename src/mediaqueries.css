@@ -1,4 +1,4 @@
-@media (max-width: 1365px) {
+@media (max-width: 85.313rem) {
     .welcome_container {
         padding: 1rem 1rem;
         gap: 1rem;
@@ -37,9 +37,15 @@
         line-height: 2.5rem;
         font-weight: 500;
     }
+
+    .saturnImage img, 
+    .moonImage img, 
+    .earthImage img{
+        width: 35rem;
+    }
 }
 
-@media (max-width: 1290px){
+@media (max-width: 80.625rem){
     .offer_container{
         gap: 6.5rem;
     }
@@ -51,21 +57,9 @@
     .main_container .last_project_container p{
         margin-bottom: 2rem;
     }
-
-    .saturnImage img{
-        width: 35rem;
-    }
-    
-    .moonImage img{
-        width: 35rem;
-    }
-    
-    .earthImage{
-        width: 35rem;
-    }
 }
 
-@media (max-width: 1100px){
+@media (max-width: 68.75rem){
     .about_container{
         width: 100%;
         text-align: center;
@@ -95,7 +89,7 @@
     }
 }
 
-@media (max-width: 936px){
+@media (max-width: 58.5rem){
     .header .header_container{
         gap: 1.8rem;
     }
@@ -148,13 +142,13 @@
     }
 }
 
-@media (max-width: 470px){
+@media (max-width: 29.375rem){
     .header .header_container li a{
         font-size: 1.7rem;
     }
 
     .welcome_container .welcome_info_container span{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .welcome_container .welcome_info_container h1{
@@ -167,7 +161,7 @@
 
     .about_container .about_info p{
         font-size: 2rem;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 4rem;
     }
 
