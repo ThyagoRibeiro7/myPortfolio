@@ -25,6 +25,11 @@
     font-weight: var(--fw-bold);
     color: var(--light-color);
     font-family: var(--ff-ubuntu);
+    transition: all 0.2s;
+}
+
+.header_container li a:hover{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF;
 }
 
 .header.active {
