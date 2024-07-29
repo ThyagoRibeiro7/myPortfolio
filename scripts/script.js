@@ -1,12 +1,11 @@
 const getHeaderQuery = document.querySelector('.header');
 
-window.onscroll = function () {
+window.addEventListener('scroll', () => {
     let top = window.scrollY;
 
-    if(top >= 200){
+    if (top >= 200) {
         getHeaderQuery.classList.add('active');
-    } else{
+    } else {
         getHeaderQuery.classList.remove('active')
     }
-};
-
+});
