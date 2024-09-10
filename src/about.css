@@ -15,14 +15,14 @@
 
 .about_container .about_info h2{
     font-family: var(--ff-jura);
-    font-size: 8rem;
+    font-size: clamp(6rem, 7rem, 8rem);
     font-weight: var(--fw-light);
     margin-bottom: 2.5rem;
 }
 
 .about_container .about_info p{
     font-family: var(--ff-jura);
-    font-size: 2.2rem;
+    font-size: clamp(1.5rem , 2.5rem, 2.5rem);
     line-height: 5rem;
     font-weight: var(--fw-light);
 }
