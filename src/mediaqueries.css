@@ -1,4 +1,4 @@
-@media (max-width: 85.313rem) {
+@media (max-width: 87.5rem) {
     .welcome_container {
         padding: 1rem 1rem;
         gap: 1rem;
@@ -16,24 +16,11 @@
         width: 30rem;
     }
 
-    .welcome_container .welcome_info_container span{
-        font-size: 3.5rem;
-    }
-
-    .welcome_container .welcome_info_container p{
-        font-size: 2.5rem;
-    }
-
-    .welcome_container .welcome_info_container h1{
-        font-size: 5rem;
-    }
-
     .main_project_container .project_container{
-        gap: 5rem;
+        gap: 2rem;
     }
 
     .project_container .info_project_container p{
-        font-size: 2rem;
         line-height: 2.5rem;
         font-weight: 500;
     }
@@ -94,10 +81,6 @@
         gap: 1.8rem;
     }
 
-    .header_container li a{
-        font-size: 2.1rem;
-    }
-
     .welcome_container{
         padding: 2rem 0;
         flex-direction: column;
@@ -123,10 +106,6 @@
         flex-direction: column;
     }
 
-    .hard_skills_container .floating_card_container ul li{
-        font-size: 2rem;
-    }
-
     .earthImage{
         top: 750rem;
     }
@@ -136,50 +115,18 @@
         font-size: 6.5rem;
     }
 
-    .main_project_container h2{
-        font-size: 6.5rem;
-    }
-
     .project_container .info_project_container h3{
-        font-size: 3rem;
         text-align: center;
     }
 }
 
 @media (max-width: 29.375rem){
-    .header .header_container li a{
-        font-size: 1.7rem;
-    }
-
-    .welcome_container .welcome_info_container span{
-        font-size: 4rem;
-    }
-
-    .welcome_container .welcome_info_container h1{
-        font-size: 4rem;
-    }
-
-    .welcome_container .welcome_info_container p{
-        font-size: 2rem;
-    }
-
     .about_container .about_info p{
-        font-size: 2rem;
         font-weight: 400;
         line-height: 4rem;
     }
 
-    .about_container .about_info h2{
-        font-size: 6rem;
-    }
-
-    .myStack_container h2, p,
     .info_project_container h2{
         font-size: 6.5rem;
-    }
-
-    .project_container .info_project_container h3{
-        font-size: 3rem;
-        text-align: center;
     }
 }

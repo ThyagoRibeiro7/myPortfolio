@@ -5,7 +5,7 @@
 
 .main_project_container > h2{
     font-family: var(--ff-kumbh-sans);
-    font-size: 8rem;
+    font-size: clamp(6.5rem, 7.5vw, 8rem);
     font-weight: var(--fw-light);
     margin-bottom: 13rem;
 }
@@ -27,15 +27,14 @@
 
 .project_container .info_project_container h3{
     font-weight: 400;
-    font-size: 4rem;
+    font-size: clamp(3rem, 5vw, 4rem);
     margin-bottom: 1rem;
 }
 
 .project_container .info_project_container p{
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     line-height: 3.5rem;
     margin-bottom: 2rem;
-    max-width: 50ch;
 }
 
 .project_container .info_project_container span{
@@ -83,6 +82,6 @@
     margin-bottom: 20rem;
 }
 
-.main_container .last_project_container p{
-    margin-bottom: 13rem;
+.main_container .project_container:nth-child(4) p{
+    margin-bottom: 7rem;
 }

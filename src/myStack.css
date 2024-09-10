@@ -8,14 +8,14 @@
 }
 
 .myStack_container h2{
-    font-size: 8rem;
+    font-size: clamp(6.5rem, 7.5vw, 8rem);
     font-family: var(--ff-kumbh-sans);
     font-weight: var(--fw-light);
 }
 
 .myStack_container p{
     font-family: var(--ff-kumbh-sans);
-    font-size: 2rem;
+    font-size: clamp(2.5rem, 7.5vw, 3rem);
     font-weight: 200;
 }
 
@@ -55,13 +55,13 @@
     margin-top: 3.5rem;
 }
 
-.floating_card_container ul{
+.hard_skills_container .floating_card_container ul{
     margin-bottom: 1rem;
 }
 
-.floating_card_container ul li{
+.hard_skills_container .floating_card_container ul li{
     font-family: var(--ff-anybody);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 5vw, 2rem);
     line-height: 3rem;
     list-style-type: disc;
 }

@@ -11,6 +11,14 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+p, li {
+    max-width: 65ch;
+}
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -26,8 +34,6 @@ img{
     max-width: 100%;
     margin: auto;
 }
-
-/* RESET PROPERTIES */
 
 /* UTILITIES */
 
@@ -50,8 +56,6 @@ img{
     z-index: -1;
 }
 
-/* UTILITIES */
-
 /* VARIABLES */
 
 :root{
@@ -64,5 +68,3 @@ img{
     --light-color: #fff;
     --gray-color: #171717;
 }
-
-/* VARIABLES */
